@@ -16,8 +16,6 @@ import android.widget.TextView;
 import com.example.justin.neuroflow.db.Columns;
 import com.example.justin.neuroflow.db.DbHelper;
 
-import java.nio.ByteBuffer;
-
 public class SecondScreenThirdStory extends Fragment {
 
     private OnItemSelectedListener mListener;
@@ -126,12 +124,5 @@ public class SecondScreenThirdStory extends Fragment {
         );
 
         return c;
-    }
-
-    long bytesToLong(byte[] bytes) {
-        ByteBuffer buffer = ByteBuffer.allocate(Long.BYTES);
-        buffer.put(bytes);
-        buffer.flip();
-        return buffer.getLong();
     }
 }
