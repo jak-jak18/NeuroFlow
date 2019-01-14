@@ -26,4 +26,56 @@
         <item>90%</item>
         <item>December 12th</item>
     </string-array>
+
+    <!--Males:
+(name - score percent - timestamp)
+Ryan - 63 - 1546341851000
+Sam - 86 - 1536442851000
+Joey - 78 - 1546442992000
+
+Females:
+Melissa - 91 - 1540341851000
+Jess - 93 - 1540341751000
+Carly - 89 - 1540341651000-->
+    <string-array name="player1_3rdStory">
+        <item>Ryan</item>
+        <item>63</item>
+        <item>1546341851000</item>
+        <item>M</item>
+    </string-array>
+
+    <string-array name="player2_3rdStory">
+        <item>Sam</item>
+        <item>86</item>
+        <item>1536442851000</item>
+        <item>M</item>
+    </string-array>
+
+    <string-array name="player3_3rdStory">
+        <item>Joey</item>
+        <item>78</item>
+        <item>1546442992000</item>
+        <item>M</item>
+    </string-array>
+
+    <string-array name="player4_3rdStory">
+        <item>Melissa</item>
+        <item>91</item>
+        <item>1540341851000</item>
+        <item>F</item>
+    </string-array>
+
+    <string-array name="player5_3rdStory">
+        <item>Jess</item>
+        <item>93</item>
+        <item>1540341751000</item>
+        <item>F</item>
+    </string-array>
+
+    <string-array name="player6_3rdStory">
+        <item>Carly</item>
+        <item>89</item>
+        <item>1540341651000</item>
+        <item>F</item>
+    </string-array>
 </resources>

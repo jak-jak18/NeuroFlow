@@ -17,6 +17,11 @@
         <activity
             android:name=".SecondStory"
             android:label="Solution to Second Story">
+        </activity>
+
+        <activity
+            android:name=".ThirdStory"
+            android:label="Solution to Third Story">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
