@@ -1,6 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.justin.neuroflow">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -22,6 +25,11 @@
         <activity
             android:name=".ThirdStory"
             android:label="Solution to Third Story">
+        </activity>
+
+        <activity
+            android:name=".fourthStory.FourthStory"
+            android:label="Solution to Fourth Story">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

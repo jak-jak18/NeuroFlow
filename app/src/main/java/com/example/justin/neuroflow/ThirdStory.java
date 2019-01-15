@@ -115,7 +115,6 @@ public class ThirdStory extends AppCompatActivity implements OnItemSelectedListe
             ContentValues values = new ContentValues();
             values.put(Columns.Titles.NAME, player[0]);
             values.put(Columns.Titles.PERCENT, Integer.valueOf(player[1]));
-//            Log.d(LOG_TAG, Long.parseLong(player[2]));
             values.put(Columns.Titles.DATE, player[2]);
             values.put(Columns.Titles.SEX, player[3]);
             db.insert(
