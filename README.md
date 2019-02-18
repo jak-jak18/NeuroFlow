@@ -1,0 +1,2 @@
+# Answers to NeuroFlow questions.
+These are the answers to the NueroFLow questions. The technical interview was actually one of the better ones I’ve taken. A story board on trello was posted with four different stories. Each one more complex and using more features. Basically, I was asked to write-up a mini app and because it wasn’t one of those code IQ tests like the ones found on Codility or HackerRank, the technical interview actually tested my ability to develop a mobile app. 
